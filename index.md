@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## BlueSolar - Solar Computer mit Bluetooth Interface
 
-You can use the [editor on GitHub](https://github.com/kscheff/BlueSolar/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Das Projekt wurde inspiertiert durch das www.nuggetforum.de und www.poesslforum.de. Das System besteht aus einer kleinen Hardware und passender Software für ein Smartphone. Alle wichtigen Informationen zu der Solaranlage werden aufgezeichnet und mit dem Smartphone dann angezeigt. Damit entfällt eine zusätzliche Anzeige und die Installation wird dadurch wesentlich vereinfacht.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Bild](https://github.com/kscheff/BlueSolar/blob/master/FullSizeRender-4.jpg)
 
-### Markdown
+Weitere spezifische Informationen sind im Forum direkt hier zu finden:
+* [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
+* [Pösslforum Thread](https://poesslforum.de/forum/elektrik/2705-solarcomputer-mit-bluetooth-im-eigenbau?start=30#34903)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### BlueSolar System
 
-# Header 1
-## Header 2
-### Header 3
+Das Sytem besteht aus einerm kleinen Gerät welches an dem Solarladeregler angeschlossen wird. Zum Anschluss werden nur 3 dünne Leitungen benötigt:
+* +12 V der Batterie
+* EBL Ausgang des Ladereglers
+* Masse
 
-- Bulleted
-- List
+![Bild](https://github.com/kscheff/BlueSolar/blob/master/FullSizeRender.jpg)
 
-1. Numbered
-2. List
+Der BlueSolar Computer erfasst die Spannung der Boardbatterie and den Ladestrom (via EBL) des Solarladereglers. Diese Daten werden dann kontinuierlich erfasst und daraus wichtige Kenndaten der Solaranlage errechnet.
 
-**Bold** and _Italic_ and `Code` text
+Errechnet werden folgende Parameter:
+* Momentane Spannung der Boardbatterie (Volt)
+* Momentaner Ladestrom und Leistung (Ampere, Watt)
+* Bisherige Tagesleistung (Ah, Wh)
+* Tägliches Minimum and Maximum der Batteriespannung
+* Tägliche maximale Solarleistung (Watt
+* Tägliche Ladezeit (und Dunkelzeit) (Stunden:Minuten)
 
-[Link](url) and ![Image](src)
-```
+Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden mindestens die letzten 30 Tage (derzeit sind es 220 Tage).
+* Ladeenergie (Wh)
+* Maximale Solarleisting (Watt)
+* Ladezeit (Stunden:Minuten)
+* min/max Batteriespannung
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kscheff/BlueSolar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
