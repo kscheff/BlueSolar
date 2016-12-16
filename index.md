@@ -40,5 +40,5 @@ Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine And
 
 ![iOS App](https://github.com/kscheff/BlueSolar/blob/master/IMG_5421.PNG)
 
-Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an kai(at)diescheffers.de schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
+Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
