@@ -38,7 +38,11 @@ Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden 
 
 Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine Android basierende Version (hier werden noch Software Entwickler gesucht).
 
-![iOS App](iOS/master_detail_small.jpg)
+![iOS App](iOS/master_detail_small.png)
+![iOS App](/iOS/master_detail_small.png)
+![iOS App](master_detail_small.png)
+![iOS App](/master_detail_small.png)
+
 
 Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
