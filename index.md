@@ -50,7 +50,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 <tr>
 <td>
-![App_Icon](Icon.png)
+![Icon](Icon.png)
 </td>
 <td>
 <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a>
@@ -59,7 +59,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 <tr>
 <td>
-![App_Icon](Icon.png)
+![Icon](Icon.png)
 </td>
 <td>
 <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a>
@@ -68,7 +68,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 <tr>
 <td>
-![App_Icon](Icon.png)
+![Icon](Icon.png)
 </td>
 <td>
 <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a>
@@ -77,7 +77,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 <tr>
 <td>
-![App_Icon](Icon.png)
+![Icon](Icon.png)
 </td>
 <td>
 <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a>
@@ -86,7 +86,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 <tr>
 <td>
-![App_Icon](Icon.png)
+![Icon](Icon.png)
 </td>
 <td>
 [BlueSolar 0.1 App](itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist)
