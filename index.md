@@ -2,11 +2,7 @@
 
 Das Projekt wurde inspiertiert durch das www.nuggetforum.de und www.poesslforum.de. Das System besteht aus einer kleinen Hardware und passender Software für ein Smartphone. Alle wichtigen Informationen zu der Solaranlage werden aufgezeichnet und mit dem Smartphone dann angezeigt. Damit entfällt eine zusätzliche Anzeige und die Installation wird dadurch wesentlich vereinfacht.
 
-![Bild](https://github.com/kscheff/BlueSolar/blob/master/FullSizeRender-4.jpg)
 ![Bild](FullSizeRender-4.jpg)
-![Bild](/FullSizeRender-4.jpg)
-![Bild](./FullSizeRender-4.jpg)
-
 
 Weitere spezifische Informationen sind im Forum direkt hier zu finden:
 * [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
@@ -20,7 +16,7 @@ Das Sytem besteht aus einerm kleinen Gerät welches an dem Solarladeregler anges
 * EBL Ausgang des Ladereglers
 * Masse
 
-![Bild](https://github.com/kscheff/BlueSolar/blob/master/FullSizeRender.jpg)
+![Bild](FullSizeRender.jpg)
 
 Der BlueSolar Computer erfasst die Spannung der Boardbatterie and den Ladestrom (via EBL) des Solarladereglers. Diese Daten werden dann kontinuierlich erfasst und daraus wichtige Kenndaten der Solaranlage errechnet.
 
@@ -42,7 +38,7 @@ Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden 
 
 Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine Android basierende Version (hier werden noch Software Entwickler gesucht).
 
-![iOS App](https://github.com/kscheff/BlueSolar/blob/master/IMG_5421.PNG)
+![iOS App](IMG_5421.PNG)
 
 Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
