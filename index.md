@@ -51,6 +51,11 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 <tr>
 <td>
 ![Icon](Icon.png)
+<img src="Icon.png" alt="Icon">
+<img src="./Icon.png" alt="Icon">
+<img src="iOS/Icon.png" alt="Icon">
+<img src="/iOS/Icon.png" alt="Icon">
+<img src="./iOS/Icon.png" alt="Icon">
 </td>
 <td>
 <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a>
