@@ -2,7 +2,7 @@
 
 Das Projekt wurde inspiertiert durch das www.nuggetforum.de und www.poesslforum.de. Das System besteht aus einer kleinen Hardware und passender Software für ein Smartphone. Alle wichtigen Informationen zu der Solaranlage werden aufgezeichnet und mit dem Smartphone dann angezeigt. Damit entfällt eine zusätzliche Anzeige und die Installation wird dadurch wesentlich vereinfacht.
 
-![Bild](FullSizeRender-4.jpg)
+![Bild](FullSizeRender-4.jpg | width="100")
 
 Weitere spezifische Informationen sind im Forum direkt hier zu finden:
 * [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
