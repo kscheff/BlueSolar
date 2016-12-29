@@ -15,7 +15,7 @@ Weitere spezifische Informationen sind im Forum direkt hier zu finden:
 Das Sytem besteht aus einerm kleinen Gerät welches an dem Solarladeregler angeschlossen wird. Zum Anschluss werden nur 3 dünne Leitungen benötigt:
 
 * +12 V der Batterie
-* EBL Ausgang des Ladereglers \*)
+* EBL-Ausgang des Ladereglers \*)
 * Masse 
 
 ![Bild](FullSizeRender.jpg)
@@ -53,4 +53,4 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a> |
 
 
-\*) Bitte beachten: BlueSolar wird direkt am **Laderegler** angschlossen. Mit EBL Ausgang ist das Ausgangssignal des Ladereglers bezeichnet. Ein eventuell vorhandenes EBL System wird nicht benötigt oder angeschlossen. Sollte der EBL Ausgang des Ladereglers bereits durch eine Solarstromanzeige eines EBL-Systems belegt sein, so ersetzt BlueSolar diese Anzeige und das EBL Signal des Ladereglers muss direkt mit BlueSolar verbunden werden. Eine manuelle Umschaltung dieses Signals ist auch möglich, aber unterbricht den vollständigen Log und Anzeige im BlueSolar (nur die Batteriespannung bleibt gültig). 
+\*) Bitte beachten: BlueSolar wird direkt am **Laderegler** angeschlossen. Mit EBL-Ausgang ist das Ausgangssignal des Ladereglers bezeichnet. Ein eventuell vorhandenes EBL System wird nicht benötigt oder angeschlossen. Sollte der EBL-Ausgang des Ladereglers bereits durch eine Solarstromanzeige eines EBL Systems belegt sein, so ersetzt BlueSolar diese Anzeige und das EBL-Ausgang des Ladereglers muss direkt mit BlueSolar verbunden werden. Eine manuelle Umschaltung dieses Ausgangs ist auch möglich, aber unterbricht den vollständigen Log und Anzeige im BlueSolar (nur die Batteriespannung bleibt gültig). 
