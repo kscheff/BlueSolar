@@ -5,13 +5,15 @@ Das Projekt wurde inspiertiert durch das www.nuggetforum.de und www.poesslforum.
 ![Bild](FullSizeRender-4.jpg)
 
 Weitere spezifische Informationen sind im Forum direkt hier zu finden:
-- [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
-- [Pösslforum Thread](https://poesslforum.de/forum/elektrik/2705-solarcomputer-mit-bluetooth-im-eigenbau?start=30#34903)
+
+* [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
+* [Pösslforum Thread](https://poesslforum.de/forum/elektrik/2705-solarcomputer-mit-bluetooth-im-eigenbau?start=30#34903)
 
 
 ### BlueSolar System
 
 Das Sytem besteht aus einerm kleinen Gerät welches an dem Solarladeregler angeschlossen wird. Zum Anschluss werden nur 3 dünne Leitungen benötigt:
+
 * +12 V der Batterie
 * EBL Ausgang des Ladereglers \*)
 * Masse 
@@ -21,12 +23,13 @@ Das Sytem besteht aus einerm kleinen Gerät welches an dem Solarladeregler anges
 Der BlueSolar Computer erfasst die Spannung der Boardbatterie and den Ladestrom über den mit EBL bezeichneten Ausgang des Solarladereglers. Diese Daten werden dann kontinuierlich erfasst und daraus wichtige Kenndaten der Solaranlage errechnet.
 
 Errechnet werden folgende Parameter:
- * Momentane Spannung der Boardbatterie (Volt)
- * Momentaner Ladestrom und Leistung (Ampere, Watt)
- * Bisherige Tagesleistung (Ah, Wh)
- * Tägliches Minimum and Maximum der Batteriespannung
- * Tägliche maximale Solarleistung (Watt
- * Tägliche Ladezeit (und Dunkelzeit) (Stunden:Minuten)
+
+* Momentane Spannung der Boardbatterie (Volt)
+* Momentaner Ladestrom und Leistung (Ampere, Watt)
+* Bisherige Tagesleistung (Ah, Wh)
+* Tägliches Minimum and Maximum der Batteriespannung
+* Tägliche maximale Solarleistung (Watt
+* Tägliche Ladezeit (und Dunkelzeit) (Stunden:Minuten)
 
 Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden mindestens die letzten 30 Tage (derzeit sind es 220 Tage).
  * Ladeenergie (Wh)
