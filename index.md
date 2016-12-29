@@ -38,60 +38,15 @@ Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden 
 
 Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine Android basierende Version (hier werden noch Software Entwickler gesucht).
 
-![iOS App](master_detail_small.png)
+![iOS App](iOS/master_detail_small.png)
 
 Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
-
 | Icon | Link |
 | --- | --- |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a> |
+| ![Icon](iOS/Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a> |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a> |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a> |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a> |
 
 
-<table>
-
-<tr>
-<td>
-<p><img src="iOS/Icon.png" alt="Icon"></p>
-</td>
-<td>
-<a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="iOS/Icon.png" alt="Icon">
-</td>
-<td>
-<a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="iOS/Icon.png" alt="Icon">
-</td>
-<td>
-<a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="iOS/Icon.png" alt="Icon">
-</td>
-<td>
-<a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a>
-</td>
-</tr>
-
-<tr>
-<td>
-<img src="iOS/Icon.png" alt="Icon">
-</td>
-<td>
-[BlueSolar 0.1 App](itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist)
-</td>
-</tr>
-</table>
