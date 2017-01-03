@@ -45,11 +45,11 @@ Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine And
 
 Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
-| Icon | Link |
-| --- | --- |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.21/manifest.plist">BlueSolar 1.0.21 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.19/manifest.plist">BlueSolar 1.0.19 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.17/manifest.plist">BlueSolar 1.0.17 App</a> |
+| Icon | Link | Notiz |
+| --- | --- | --- |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.21/manifest.plist">BlueSolar 1.0.21 App</a> | CSV Export |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.19/manifest.plist">BlueSolar 1.0.19 App</a> | Verbesserte Zählweise |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.17/manifest.plist">BlueSolar 1.0.17 App</a> | Index bei mehereren Geräten |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.15/manifest.plist">BlueSolar 1.0.15 App</a> |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a> |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a> |
