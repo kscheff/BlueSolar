@@ -47,14 +47,14 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 | Icon | Link | Notiz |
 | --- | --- | --- |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.21/manifest.plist">BlueSolar 1.0.21 App</a> | CSV Export |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.19/manifest.plist">BlueSolar 1.0.19 App</a> | Verbesserte Zählweise |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.17/manifest.plist">BlueSolar 1.0.17 App</a> | Index bei mehereren Geräten |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.15/manifest.plist">BlueSolar 1.0.15 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a> |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a> |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.21/manifest.plist">BlueSolar 1.0.21 App</a> | CSV Export via Email |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.19/manifest.plist">BlueSolar 1.0.19 App</a> | Verbesserte Zählung der Log Einträge, Fehler verbessert |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.17/manifest.plist">BlueSolar 1.0.17 App</a> | Errechnete Ah im Log |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.15/manifest.plist">BlueSolar 1.0.15 App</a> | Gleich wie 1.0.14 mit weiteren UDIDs für Beta Tests. |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.14/manifest.plist">BlueSolar 1.0.14 App</a> | Verbesserte Namen bei mehreren Devices |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.12/manifest.plist">BlueSolar 1.0.12 App</a> | Speichert Geräte und Log |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a> | Verbessungen bzgl. der Anzeige auf verschiedenen iPhone Modellen. |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a> | Erste Version |
 
 
 \*) Bitte beachten: BlueSolar wird direkt am **Laderegler** angeschlossen. Mit EBL-Ausgang ist das Ausgangssignal des Ladereglers bezeichnet. Ein eventuell vorhandenes EBL System wird nicht benötigt oder angeschlossen. Sollte der EBL-Ausgang des Ladereglers bereits durch eine Solarstromanzeige eines EBL Systems belegt sein, so ersetzt BlueSolar diese Anzeige und das EBL-Ausgang des Ladereglers muss direkt mit BlueSolar verbunden werden. Eine manuelle Umschaltung dieses Ausgangs ist auch möglich, aber unterbricht den vollständigen Log und Anzeige im BlueSolar (nur die Batteriespannung bleibt gültig). 
