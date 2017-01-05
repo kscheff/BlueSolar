@@ -47,7 +47,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 
 | Icon | Link | Notiz |
 | --- | --- | --- |
-| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.32/manifest.plist">BlueSolar 1.0.32 App</a> | Bei Erstinstallation wird eine BleuSolar Demo Gerät angelegt, damit die App auch ohne Hardware exploriert werden kann. |
+| ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.32/manifest.plist">BlueSolar 1.0.32 App</a> | Bei Erstinstallation wird ein BlueSolar Demo Gerät angelegt, damit die App auch ohne Hardware exploriert werden kann. |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.21/manifest.plist">BlueSolar 1.0.21 App</a> | CSV Export via Email |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.19/manifest.plist">BlueSolar 1.0.19 App</a> | Verbesserte Zählung der Log Einträge, Fehler verbessert |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.17/manifest.plist">BlueSolar 1.0.17 App</a> | Errechnete Ah im Log |
