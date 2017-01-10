@@ -58,5 +58,52 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/1.0.9/manifest.plist">BlueSolar 1.0.9 App</a> | Verbessungen bzgl. der Anzeige auf verschiedenen iPhone Modellen. |
 | ![Icon](Icon.png) | <a href="itms-services://?action=download-manifest&url=https://github.com/kscheff/BlueSolar/releases/download/v0.1/manifest.plist">BlueSolar 0.1 App</a> | Erste Version |
 
+##Technische Daten
+<pre>
+Kenndaten:
+- Eingangspannungsbereich 5 V bis 30 V
+- Stromverbrauch < 0.01 A (typ. 8 mA)
+- Temperaturbereich -40 bis + 85 °C (nicht kondensierend)
+
+Messbereiche:
+- Batteriespannung (= Eingangsspannung) bis 30V, Genauigkeit 1%, 12-bit Auflösung bezogen auf 33V
+- Ladestrom EBL-Eingang 0 - 1.5 mA (entspricht 0 - 30 A Ladestrom), Genauigkeit 1%, 12-bit Auflösung bezogen auf 33A
+
+Bluetooth 4.0 (2.4 Ghz)
+- Reichweite bis 50m im Freien (line of sight)
+- Firmware automatischer Update über Bluetooth
+
+Messungen:
+- Kontinuierlich alle 2 Sekunden (10-fach Oversampling) von Strom, Spannung
+- Erfassen von mW, mAh, mWh, Ladezeit bei Strommessung > 0.05 A, Pmax, Umin, Umax
+- Strommessung Deadband < 0.05 A
+
+Datenlog:
+- Erfassung von Wh, Pmax, Umin, Umax, Ladezeit, Ah (errechnet)
+- Automatischer Tagesrückstellung, jeweils um 00:00 Uhr
+- Anzahl der maximalen Datensätze: 220 Tage
+- Zeiteinstellung automatisch über Bluetooth
+- Zugriff über Bluetooth, löschbar
+
+Abmessungen:
+- Grundplatte 68.2 mm Durchmesser, 2 Seiten abgeflacht 57.2 mm
+- Höhe 21.2 mm
+- 2 Befestigungsbohrungen, Durchmesser 3.8 mm, Abstand 58.5 mm
+
+Gehäuse:
+- PETG blau, durchscheinend (LED Indikator innenliegend)
+- Gewicht ca. 35g
+
+Anschluss:
+- werkzeiglose 3-pol Klemmleiste bis 0.25 mm
+
+Mitgeliefertes Zubehör:
+- Anschlussleitung 3 x 0.14, Länge 1m
+
+App:
+- kostenlos im Apple App Store
+- ab iOS 8.2
+- iPhone (ab 4S) oder iPad (ab 3. Generation)
+</pre>
 
 \*) Bitte beachten: BlueSolar wird direkt am **Laderegler** angeschlossen. Mit EBL-Ausgang ist das Ausgangssignal des Ladereglers bezeichnet. Ein eventuell vorhandenes EBL System wird nicht benötigt oder angeschlossen. Sollte der EBL-Ausgang des Ladereglers bereits durch eine Solarstromanzeige eines EBL Systems belegt sein, so ersetzt BlueSolar diese Anzeige und das EBL-Ausgang des Ladereglers muss direkt mit BlueSolar verbunden werden. Eine manuelle Umschaltung dieses Ausgangs ist auch möglich, aber unterbricht den vollständigen Log und Anzeige im BlueSolar (nur die Batteriespannung bleibt gültig). 
