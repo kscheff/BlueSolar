@@ -37,6 +37,10 @@ Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden 
  * Ladezeit (Stunden:Minuten)
  * min/max Batteriespannung
 
+### Installationsanleitung
+
+Eine ausführliche Installationsanleitung ist [hier](https://goo.gl/1DspP8) zu finden.
+
 ### BlueSolar App
 
 Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine Android basierende Version (hier werden noch Software Entwickler gesucht).
