@@ -1,7 +1,8 @@
-// BlueSolar_V106
+// BlueSolar_V107
 // Version information needs to be reflexted to BLE Name
 // BlueSolar 14.12.2016 (C) Kai Scheffer, Switzerland
 //
+// 08.04.2017 changed voltage multiplier back to 33337, for byte assignements removed % 256
 // 04.04.2017 added Version to BLE Name
 // 28.03.2017 averaging over 8 * 250ms and adjusted voltage multiplier
 // 27.03.2017 V105 added log of Ah
@@ -63,7 +64,7 @@
 900 ADVERT GENERAL
 910 ADVERT "105a84de-40bd-428b-bf06-698e5e422cd9"
 920 ADVERT END 
-930 SCAN NAME "BlueSolar_V106"
+930 SCAN NAME "BlueSolar_V107"
 940 SCAN END
 
 // setup GATT
@@ -86,15 +87,15 @@
 1320 GOTO 1310
 //------------- end --------------------------------
 
-// aquire data 10x oversampling with average
-1350 X = (X + 1) % 8
+// aquire data 8x oversampling with average
+1350 X = (X + 1) & 0x7
 1360 A = A + P0(0) + 3
 1370 B = B + P0(2) + 3
 1380 IF X
 1390  RETURN
 1395 END
 
-1396 A = (A * 33000) >> 16
+1396 A = (A * 33337) >> 16
 1397 B = ((B * 33000) >> 16) - 10
 // subtract 10 mA for our own consumption
 
@@ -157,17 +158,17 @@
 1660 E = ((N / 100) << 16) | ((R / 1000) & 0XFFFF)
 1700 DIM U(12)
 1710 U(0) = A >> 8
-1720 U(1) = A & 255
+1720 U(1) = A
 1730 U(2) = B >> 8
-1740 U(3) = B & 255
-1750 U(4) =(N >> 24) & 255
-1760 U(5) =(N >> 16) & 255
-1770 U(6) =(N >> 8) & 255
-1780 U(7) = N & 255
-1790 U(8) =(R >> 24) & 255
-1800 U(9) =(R >> 16) & 255
-1810 U(10) =(R >> 8) & 255
-1820 U(11) = R & 255
+1740 U(3) = B
+1750 U(4) =(N >> 24)
+1760 U(5) =(N >> 16)
+1770 U(6) =(N >> 8)
+1780 U(7) = N
+1790 U(8) =(R >> 24)
+1800 U(9) =(R >> 16)
+1810 U(10) =(R >> 8)
+1820 U(11) = R
 1830 SCAN CUSTOM "FF" U
 1840 SCAN END
 // LED OFF
@@ -192,7 +193,7 @@
 2050 END
 2060 READ #3, U(0), U(1), U(2), U(3), U(4), U(5), U(6), U(7), U(8), U(9), U(10), U(11), U(14), U(15)
 2065 U(12) = D / 256
-2066 U(13) = D & 255
+2066 U(13) = D
 2070 Z = (Z + 1) % D
 2080 RETURN
 
@@ -216,24 +217,24 @@
 // generate new log data
 3040 DIM U(14)
 3080 U(0) = R / 256000 
-3090 U(1) = R / 1000 % 256
+3090 U(1) = R / 1000
 3100 R = 0
 3110 U(2) = O / 256000
-3120 U(3) = O / 1000 % 256
+3120 U(3) = O / 1000
 3130 O = 0
 3140 U(4) = J / 256
-3150 U(5) = J % 256
+3150 U(5) = J
 3160 J = 0xFFFF
 3170 U(6) = K / 256
-3180 U(7) = K % 256
+3180 U(7) = K
 3190 K = 0
 3200 U(8) = L / 15360
-3210 U(9) = L / 60 % 256
+3210 U(9) = L / 60
 3220 U(10) = D / 256
-3230 U(11) = D % 256
+3230 U(11) = D
 3240 L = 0
 3245 U(12) = N / 25600
-3246 U(13) = N / 100 % 256
+3246 U(13) = N / 100
 3247 N = 0
 // write newest log entry
 3250 OPEN 0, APPEND "A"
