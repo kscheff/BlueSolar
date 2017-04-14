@@ -45,8 +45,7 @@ Eine ausführliche Installationsanleitung ist [hier](https://goo.gl/1DspP8) zu f
 
 #### Android
 
-![Download Android App](releases/download/Android-1.1.1/BlueSolar-1.1.1.apk)
-
+<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.1/BlueSolar-1.1.1.apk">Download Android App<a>
 
 #### Apple iOS
 
