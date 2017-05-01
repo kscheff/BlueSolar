@@ -40,13 +40,16 @@ Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden 
 
 ### Installationsanleitung
 
-Eine ausführliche Installationsanleitung ist [hier](https://goo.gl/1DspP8) zu finden.
+Eine ausführliche Installationsanleitung ist hier [https://goo.gl/1DspP8](https://goo.gl/1DspP8) zu finden.
 
 ### BlueSolar App
 
 #### Android
 
-<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.1/BlueSolar-1.1.1.apk">Download Android App<a>
+<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.3/BlueSolar-1.1.3.apk">Download Android BlueSolar 1.1.3 App<a>
+
+<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.1/BlueSolar-1.1.1.apk">Download Android BlueSolar 1.1.1 App<a>
+
 
 #### Apple iOS
 
