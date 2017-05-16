@@ -29,25 +29,31 @@ Errechnet werden folgende Parameter:
 * Bisherige Tagesleistung (Ah, Wh)
 * Tägliches Minimum and Maximum der Batteriespannung
 * Tägliche maximale Solarleistung (Watt
-* Tägliche Ladezeit (und Dunkelzeit) (Stunden:Minuten)
+* Tägliche Ladezeit (Stunden:Minuten)
 
-Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden mindestens die letzten 30 Tage (derzeit sind es 220 Tage).
+Zudem speichert BlueSolar täglich die wichtigsten Daten ab. Gespeichert werden mindestens die letzten 30 Tage (derzeit sind es 180 Tage).
  * Ladeenergie (Wh)
+ * Ladung (Ah)
  * Maximale Solarleisting (Watt)
  * Ladezeit (Stunden:Minuten)
  * min/max Batteriespannung
 
 ### Installationsanleitung
 
-Eine ausführliche Installationsanleitung ist [hier](https://goo.gl/1DspP8) zu finden.
+Eine ausführliche Installationsanleitung ist hier [https://goo.gl/1DspP8](https://goo.gl/1DspP8) zu finden.
 
 ### BlueSolar App
 
-Zunächst ist eine iOS basierte App in der Entwicklung. Später erfolgt eine Android basierende Version (hier werden noch Software Entwickler gesucht).
+#### Android
+
+<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.3/BlueSolar-1.1.3.apk">Download Android BlueSolar 1.1.3 App<a>
+
+<a href="https://github.com/kscheff/BlueSolar/releases/download/Android-1.1.1/BlueSolar-1.1.1.apk">Download Android BlueSolar 1.1.1 App<a>
+
+
+#### Apple iOS
 
 ![iOS App](master_detail_small.png)
-
-Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order iPads, damit die App erfolgreich installiert werden kann. Diese UDID bitte **vorher** an @kscheff schicken, damit ich das dann einbauen kann. **Nach** bestätigung bitte erst die App hier laden und installieren.
 
 | Icon | Link | Notiz |
 | --- | --- | --- |
@@ -66,7 +72,7 @@ Zum Beta Test der App benötigt es die Geräte UDID des jeweiligen iPhones order
 <pre>
 Kenndaten:
 - Eingangspannungsbereich 5 V bis 30 V
-- Stromverbrauch < 0.01 A (typ. 8 mA)
+- Stromverbrauch < 0.01 A (typ. 1.3 mA)
 - Temperaturbereich -40 bis + 85 °C (nicht kondensierend)
 
 Messbereiche:
@@ -78,14 +84,14 @@ Bluetooth 4.0 (2.4 Ghz)
 - Firmware automatischer Update über Bluetooth
 
 Messungen:
-- Kontinuierlich alle 2 Sekunden (10-fach Oversampling) von Strom, Spannung
+- Kontinuierlich alle 2 Sekunden (16-fach Oversampling) von Strom, Spannung
 - Erfassen von mW, mAh, mWh, Ladezeit bei Strommessung > 0.05 A, Pmax, Umin, Umax
 - Strommessung Deadband < 0.05 A
 
 Datenlog:
-- Erfassung von Wh, Pmax, Umin, Umax, Ladezeit, Ah (errechnet)
+- Erfassung von Wh, Pmax, Umin, Umax, Ladezeit, Ah
 - Automatischer Tagesrückstellung, jeweils um 00:00 Uhr
-- Anzahl der maximalen Datensätze: 220 Tage
+- Anzahl der maximalen Datensätze: 180 Tage
 - Zeiteinstellung automatisch über Bluetooth
 - Zugriff über Bluetooth, löschbar
 

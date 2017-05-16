@@ -1,5 +1,5 @@
 // BlueSolar_V107
-// Version information needs to be reflexted to BLE Name
+// Version information needs to be reflected to BLE Name
 // BlueSolar 14.12.2016 (C) Kai Scheffer, Switzerland
 //
 // 08.04.2017 changed voltage multiplier back to 33337, for byte assignements removed % 256
