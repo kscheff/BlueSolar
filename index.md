@@ -6,6 +6,7 @@ Das Projekt wurde inspiertiert durch das www.nuggetforum.de und www.poesslforum.
 
 Weitere spezifische Informationen sind im Forum direkt hier zu finden:
 
+* [fertige BlueSolar Geräte sind hier zu bekommen](https://www.blue-battery.com)
 * [Nuggetforum Thread](https://www.nuggetforum.de/forum/2-allgemeines/78722-solarcomputer-mit-bluetooth-im-eigenbau)
 * [Pösslforum Thread](https://poesslforum.de/forum/elektrik/2705-solarcomputer-mit-bluetooth-im-eigenbau?start=30#34903)
 
